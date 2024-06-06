@@ -63,9 +63,9 @@ Contributions are welcome! If you have any ideas for improvements or find any is
 6. Open a pull request.
 
 ### Contact
-- For any questions or suggestions, feel free to reach out to your-asaarohi7@gmail.com.
+- For any questions or suggestions, feel free to reach out to - asaarohi7@gmail.com.
 
 ### Credits
 - Icons: Font Awesome
 - Themes: Custom CSS and creative inspiration from various sources.
-# Theme_TO-DO-LIST
+
