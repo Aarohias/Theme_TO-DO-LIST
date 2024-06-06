@@ -1,7 +1,6 @@
 # Theme_TO-DO LIST
 
-![To-Do List](<img width="1463" alt="TO-DO list Image" src="https://github.com/Aarohias/Theme_TO-DO-LIST/assets/86887428/be69a25b-fcf6-4200-95fd-a3fa61164511">
-)
+![To-Do List](<img width="1463" alt="TO-DO list" src="https://github.com/Aarohias/Theme_TO-DO-LIST/assets/86887428/60269322-1f0c-4168-9cc9-ad10283d98d2">)
 
 ## Overview
 Theme_TO-DO LIST is a versatile and visually appealing To-Do List application designed with multiple themes to suit your mood and style. It’s built using HTML, CSS, and JavaScript and provides an easy-to-use interface for managing your tasks efficiently.
