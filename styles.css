@@ -1,0 +1,223 @@
+/* General body styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+/* Default Dark Theme */
+body.dark {
+    background-color: #2c2c2c;
+    color: #fff;
+}
+
+body.dark .container {
+    background: #3d3d3d;
+}
+
+/* Light Theme */
+body.light {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+body.light .container {
+    background: #fff;
+}
+
+/* Halloween Theme */
+body.halloween {
+    background-color: #090503;
+    color: #fff;
+}
+
+body.halloween .container {
+    background: #3e3e3e;
+}
+
+/* Premium Theme */
+body.premium {
+    background-color: #1e1b1b;
+    color: #ffd700;
+}
+
+body.premium .container {
+    background: #353434;
+}
+
+/* Cupcakes Theme */
+body.cupcakes {
+    background-color: #f4e1f4;
+    color: #080708;
+}
+
+body.cupcakes .container {
+    background: #ffe6ff;
+}
+
+/* Aqua Theme */
+body.aqua {
+    background-color: #71cae8;
+    color: #fff;
+}
+
+body.aqua .container {
+    background: #93cadc;
+}
+
+/* Fantasy Theme */
+body.fantasy {
+    background-color: #663399;
+    color: #fff;
+}
+
+body.fantasy .container {
+    background: #4b0082;
+}
+
+/* Star Theme */
+body.star {
+    background-color: #171824;
+    color: #fbfaf5;
+}
+
+body.star .container {
+    background: #2e2e2e;
+}
+
+/* Container styles */
+.container {
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    transition: background 0.5s;
+}
+
+/* Heading styles */
+h1 {
+    margin-bottom: 1em;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+/* Input styles */
+.todo-input, .todo-date {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 40%;
+}
+
+/* Light theme input styles */
+body.light .todo-input, body.light .todo-date {
+    color: #000;
+    background-color: #fff;
+}
+
+/* Button styles */
+button {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-add {
+    background-color: #ff00ff;
+    color: #fff;
+}
+
+.btn-delete {
+    background-color: #ff3333;
+    color: #fff;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+}
+
+th, td {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+}
+
+/* Table header styles */
+th {
+    background-color: #444;
+}
+
+/* Light theme table header styles */
+body.light th {
+    background-color: #ddd;
+}
+
+/* Table cell styles */
+td {
+    background-color: #555;
+}
+
+/* Light theme table cell styles */
+body.light td {
+    background-color: #f5f5f5;
+}
+
+/* Action button styles */
+.actions button {
+    margin: 0 5px;
+}
+
+.actions .btn-edit {
+    background-color: #ffcc00;
+}
+
+.actions .btn-complete {
+    background-color: #00cc66;
+}
+
+.actions .btn-remove {
+    background-color: #ff3333;
+}
+
+/* Footer styles */
+footer {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.heart {
+    color: #ff6666;
+}
+
+/* Theme toggle styles */
+.theme-toggle {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.theme-select-label {
+    margin-right: 10px;
+}
+
+#theme-select {
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+}
